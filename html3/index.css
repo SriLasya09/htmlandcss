@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://cdn.saleminteractivemedia.com/106/media/radio-program-hero-880x440.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+nav{
+    display: flex;
+    padding: auto;
+    justify-content:space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.navi {
+    flex: 1;
+    text-align: right;
+}
+.navi ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navi ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navi ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(230, 45, 45);
+    display: block;
+    margin: auto;
+}
+.navi ul li:hover::after{
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.abo
+{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:90% ;
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,100%); 
+    text-align: center;
+}
+.listennow{
+display: inline-block;
+text-decoration: none;
+color: rgb(239, 247, 247);
+border: 1px solid rgb(224, 241, 241);
+padding: 12px;
+font-size: 13px;
+background: transparent;
+position: relative;
+align-self: center;
+}
+.listennow:hover{
+    border: 1px solid rgb(230, 95, 61);
+    background: rgb(241, 86, 59);
+    transition: 0.1s;
+}
+ .multi{
+     width: 80%;
+     margin: auto;
+     text-align: center;
+     padding-top: 100px;
+ } 
+.multi h1{
+     font-size: 36px;
+     font-weight: 600;
+     color: rgb(15, 15, 85);
+    
+ }
+ p{
+     color: grey;
+     font-size: 14px;
+     font-weight:300 ;
+     line-height:  22px; 
+     padding: 10px;
+ }
+ .row{
+     margin-top: 5%;
+     display: flex;
+     justify-content:space-around;
+ }
+ .multi-col{
+     flex-basis: auto;
+     background: rgb(243, 239, 239);
+     border-radius: 20px;
+     margin-bottom: 5%;
+     padding: 20px 80px;
+     box-sizing: border-box;
+     transition: 0.1s;
+ }
+ h3{
+     font-weight: 600;
+     margin: 10px 0;
+}
+.multi-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0,0.5);
+}
+.lang img{
+    width: 100%;
+}
+.lang layer{
+    background:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: rgb(243, 61, 61);
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-around;
+}
+.lang{
+    flex-basis: auto;
+    background: rgb(243, 239, 239);
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 10px 10px;
+    box-sizing:border-box;
+    transition: 0.1s;
+    height: 150px;
+    width: 150px;
+}
+.lang:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0,0.5);
+}
+.round {
+    border-radius: 50%;
+    font-size: 50px;
+    color: rgb(24, 22, 22);
+    align-self: center;
+    
+  }
+.gall.row{
+    margin-top: 5%;
+    justify-content:space-between;
+}
+.gall{
+    flex-basis: auto;
+    background: rgb(243, 239, 239);
+    border-radius: 10px;
+    margin-bottom: 5%;
+   transition: 0.1s;
+}
+.gall:hover{
+box-shadow: 0 0 20px 0px rgba(0, 0, 0,0.5);
+}
+.footer{
+    max-height: 50px;
+    width: 100%;
+     background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(13, 13, 80);
+}
+
+.logo{
+    display: flex;
+    padding: auto;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+.logo ul li{
+    list-style-type: style none;
+    display: inline-block;
+    padding: 8px 50px;
+    position: relative;
+   align-content:space-between;
+}
+.logo ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(230, 45, 45);
+    display: block;
+    margin: auto;
+}
+.logo ul li:hover::after{
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.foot{
+    max-height: 50px;
+    width: 100%;
+     background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(7, 7, 41);
+}
+
+.us{
+    display: flex;
+    padding: auto;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.us {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+}
+.us ul li{
+    list-style-type: style none;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+   align-content:space-between;
+}
+.us ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.us ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: rgb(208, 219, 218);
+    display: block;
+    margin: auto;
+}
+.us ul li:hover::after{
+    width: 100%;
+    transition-duration: 0.5s;
+}
+.last{
+font:100;
+font-style: normal;
+color: black;
+}
